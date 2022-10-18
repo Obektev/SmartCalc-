@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* Common Settings: */
+.title, .main, .button {
+    user-select: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+}
+
+.title {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-top: -2px;
+    width: auto;
+    height: 24px;
+
+    /*Text-settings*/
+    font-size: 1.2rem;
+    font-display: Center;
+}
+.title > p {
+    margin-top: 16px;
+}
+
+
+.main {
+    text-align: left;
+    font-size: 20px;
+
+
+    text-align: center;
+    justify-content: center;
+    
+    height: 630px;
+    margin-top: 2px;  
+}
+
+.tutorial {
+    margin: 0;
+    top: 0;
+    margin-left: -8px;
+    position: absolute;
+    z-index: 100;
+    width: 427.92px;
+    height: 632px;
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    margin: 6px; 
+    width: 230px;
+    margin-left: 75px;
+    margin-bottom: 6px;
+}
+
+#announce {
+    opacity: 0%;
+    position: absolute;
+    margin: 0;
+    margin-left: 6px;
+    z-index: 10;
+    color: #d0d0d0;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 19px;
+    transition: opacity 3s ease;
+}
+
+
+
+#input_t {
+
+    width: 350px;
+    height: 60px;
+    padding: 9px;
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 34px;
+    font-family: 'Oswald', sans-serif;
+    border-width: 1px;
+    border-color: #b7b7b7;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-style: dashed;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0px rgba(66,66,66,.75);
+    text-align: left;
+    letter-spacing: 1px;
+    
+}
+#input_t:focus {
+    outline: none;
+}
+
+.buttons > p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.buttons {
+    margin-top: -80px;
+}
+.button {
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+}
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.413);
+    transition: all 0.5s ease;
+}
+.button:active {
+    background-color: rgba(0, 0, 0, 0.513);
+    transform: scale(95%, 95%);
+    transition: all 0.05s ease;
+}
+#x-in-y {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: 53px;
+}
+
+
+footer {
+    list-style: none;
+    margin-top: 14px;
+    display: flex;
+}
+
+#settings-p {
+margin-left: 35%;
+opacity: 80%;
+position: absolute;
+left: 55%
+}
+#settings-p:hover {
+    transition: all 0.2s ease;
+}
+
+#settings-p-1 {
+    margin-left: 28%;
+    opacity: 80%;
+    position: absolute;
+    left: 55%
+}
+#settings-p-1:hover {
+    transition: all 0.2s ease;
+}
+    
+
+
+#raddeg {
+    opacity: 50%;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 21px;
+}
+

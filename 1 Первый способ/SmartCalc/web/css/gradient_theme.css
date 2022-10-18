@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background: linear-gradient(16deg,#95b888,#2b1377,#19b89f,#b022e8,#c49db2);
+    background-size: 300% 300%;
+    animation: gradient-animation 20s ease infinite;
+    }
+    
+    @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.title, .main, .button {
+    border: 2.5px solid #bababa;
+    border-radius: 10px;
+    border-bottom: 3px solid;
+    color: #ffffff;
+}
+#settings-p, #settings-p-1 {
+    color: #ffffff;
+}
+#settings-p:hover, #settings-p-1:hover {
+    color: #3b3a3a;
+    text-shadow: 1px 3px 5px #363636;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background: rgb(42, 42, 42);
+}
+.title, .main, .button {
+    border: 2.5px solid #8f8f8f;
+    border-bottom: 3px solid;
+    border-radius: 0px;
+    color: #aaaaaa;
+}
+#input_t {
+    border-radius: 0px;
+}
+#settings-save {
+    color: #ffffff;
+}
+#settings-save:hover {
+    color: #bababa;
+    text-shadow: 1px 3px 5px #d7d7d7;
+}

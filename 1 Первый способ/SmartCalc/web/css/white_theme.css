@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background: #ffffff; /**/
+}
+.title, .main, .button {
+    border: 2.5px solid #525252;
+    border-radius: 10px;
+    border-bottom: 3px solid #525252;
+    color: #cacaca;
+}
+#settings-p, #settings-p-1 {
+    color: #ffffff;
+}
+#settings-p:hover, #settings-p-1:hover {
+    color: #3b3a3a;
+    text-shadow: 1px 3px 5px #363636;
+}

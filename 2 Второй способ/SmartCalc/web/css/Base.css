@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(103deg, rgba(34,193,195,0.4) 0%, rgba(253,187,45,0.4) 100%);
+}
+
+/* Common Settings: */
+.title, .main, .button {
+    user-select: none;
+    border: 2.5px solid #e7e7e7;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+    color: #ffffff;
+}
+
+.title {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+            margin-left: auto;
+            margin-top: -2px;
+  /*Sizes*/ width: auto;
+            height: 30px;
+
+    /*Text-settings*/
+    font-size: 1.4rem;
+    font-display: Center;
+    color: #ffffff;
+    
+}
+.title > p {
+    margin-top: 19.5px;
+}
+
+
+.main {
+    text-align: left;
+    transition: max-height ease-out;
+    font-size: 20px;
+    text-indent: 10px;
+
+    height: 547px;
+    margin-top: 3px;
+    padding-left: 9px;   
+}
+.main > :nth-child(3) {
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size: xx-large;
+
+    margin-top: 3px;
+    height: 65px;
+} .button > p {margin-top: 25px;}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+.button:active {
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(0.995, 0.95);
+}
+
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+    width: 0;
+}

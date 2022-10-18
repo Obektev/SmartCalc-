@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/*    font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    background: rgb(34,193,195); /**/
+    background: linear-gradient(103deg, rgba(34,193,195,0.4) 0%, rgba(253,187,45,0.4) 100%);/**/
+}
+.title, .main, .button {
+    border: 2.5px solid #e7e7e7;
+    border-radius: 0px;
+    border-bottom: 3px solid;
+    color: #ffffff;
+}
+#input_t {
+    border-radius: 0px;
+}
+#settings-p {
+    color: #ffffff;
+}
+#settings-p:hover {
+    color: #3b3a3a;
+    text-shadow: 1px 3px 5px #363636;
+}
+#settings-p-1 {
+    color: #ffffff;
+}
+#settings-p-1:hover {
+    color: #3b3a3a;
+    text-shadow: 1px 3px 5px #363636;
+}
